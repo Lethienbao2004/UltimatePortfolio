@@ -15,6 +15,10 @@
 		BE6F69C92553C5EB00B073BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6F69C82553C5EB00B073BA /* Preview Assets.xcassets */; };
 		BE6F69D32553CA9F00B073BA /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE6F69D12553CA9F00B073BA /* Main.xcdatamodeld */; };
 		BE6F69D62554AB7600B073BA /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F69D52554AB7600B073BA /* DataController.swift */; };
+		BEA8A4612558F37E00EC7573 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8A4602558F37E00EC7573 /* Item-CoreDataHelpers.swift */; };
+		BEA8A4642558F5E000EC7573 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8A4632558F5E000EC7573 /* Project-CoreDataHelpers.swift */; };
+		BEA8A468255AD72300EC7573 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8A467255AD72300EC7573 /* EditItemView.swift */; };
+		BEA8A46B255BC4E300EC7573 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8A46A255BC4E300EC7573 /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		BE6F69CA2553C5EB00B073BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6F69D22553CA9F00B073BA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		BE6F69D52554AB7600B073BA /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		BEA8A4602558F37E00EC7573 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		BEA8A4632558F5E000EC7573 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		BEA8A467255AD72300EC7573 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		BEA8A46A255BC4E300EC7573 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +70,13 @@
 			children = (
 				BE6F69C12553C5E900B073BA /* UltimatePortfolioApp.swift */,
 				BE6F69C32553C5E900B073BA /* ContentView.swift */,
+				BEA8A467255AD72300EC7573 /* EditItemView.swift */,
 				BE67661F255734020025582F /* ProjectsView.swift */,
+				BEA8A46A255BC4E300EC7573 /* ItemRowView.swift */,
 				BE676623255742B00025582F /* HomeView.swift */,
 				BE6F69D52554AB7600B073BA /* DataController.swift */,
+				BEA8A4602558F37E00EC7573 /* Item-CoreDataHelpers.swift */,
+				BEA8A4632558F5E000EC7573 /* Project-CoreDataHelpers.swift */,
 				BE6F69C52553C5EB00B073BA /* Assets.xcassets */,
 				BE6F69CA2553C5EB00B073BA /* Info.plist */,
 				BE6F69D12553CA9F00B073BA /* Main.xcdatamodeld */,
@@ -152,10 +164,14 @@
 			files = (
 				BE6F69C42553C5E900B073BA /* ContentView.swift in Sources */,
 				BE6F69D62554AB7600B073BA /* DataController.swift in Sources */,
+				BEA8A4642558F5E000EC7573 /* Project-CoreDataHelpers.swift in Sources */,
 				BE6F69C22553C5E900B073BA /* UltimatePortfolioApp.swift in Sources */,
+				BEA8A46B255BC4E300EC7573 /* ItemRowView.swift in Sources */,
 				BE676624255742B00025582F /* HomeView.swift in Sources */,
 				BE676620255734020025582F /* ProjectsView.swift in Sources */,
 				BE6F69D32553CA9F00B073BA /* Main.xcdatamodeld in Sources */,
+				BEA8A4612558F37E00EC7573 /* Item-CoreDataHelpers.swift in Sources */,
+				BEA8A468255AD72300EC7573 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
